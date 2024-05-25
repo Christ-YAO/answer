@@ -1,0 +1,37 @@
+body {
+  background: #141416;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  border: 1px solid #777e91;
+  width: 300px;
+  border-radius: 20px;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+summary {
+  list-style: none;
+  color: rgba(25, 137, 202, 0.452);
+  cursor: pointer;
+  transition: 0.25s;
+  user-select: none;
+  width: 150px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+summary:hover {
+  color: rgb(25, 137, 202);
+  filter: hue-rotate(360deg);
+}
+
+p {
+  color: rgb(146, 146, 146);
+  margin-left: -25px;
+}
